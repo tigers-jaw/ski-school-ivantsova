@@ -1,11 +1,13 @@
 /* header */
 
 .header-btn {
+    font-weight: 500;
     font-size: 24px;
     line-height: 29px;
 }
 
 .header-phone {
+    font-weight: 500;
     font-size: 28px;
     line-height: 34px;
 }
@@ -13,11 +15,13 @@
 /* promo */
 
 .promo-title {
+    font-weight: 500;
     font-size: 60px;
     line-height: 89px;
 }
 
 .promo-desc {
+    font-weight: 500;
     font-size: 32px;
     line-height: 39px;
 }
@@ -25,11 +29,13 @@
 /* about */
 
 .about-title {
+    font-weight: 500;
     font-size: 48px;
     line-height: 80px;
 }
 
 .about-subtitle {
+    font-weight: 500;
     font-size: 32px;
     line-height: 53px;
 }
@@ -42,11 +48,13 @@
 /* lead */
 
 .lead-title {
+    font-weight: 500;
     font-size: 48px;
     line-height: 80px;
 }
 
 .lead-btn {
+    font-weight: 500;
     font-size: 36px;
     line-height: 44px;
 }
@@ -54,11 +62,13 @@
 /* footer */
 
 .footer-text {
+    font-weight: 500;
     font-size: 20px;
     line-height: 33px;
 }
 
-.footer-copyr {
+.footer-cr {
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
 }
