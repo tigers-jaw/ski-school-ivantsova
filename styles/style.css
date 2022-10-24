@@ -28,7 +28,7 @@
 
 /* common */
 
-.body {
+body {
     font-family: 'Montserrat', sans-serif;
     color: #060D10;
 }
@@ -54,11 +54,10 @@
 
 /* promo */
 
-/* раскомм когда заменю фон
 .promo {
     color: #fff;
+    text-shadow: 1px 1px 2px #060D10;
 }
-*/
 
 .promo-title {
     font-family: 'Oswald', sans-serif;
@@ -78,10 +77,10 @@
 /* about */
 
 .about {
-    background-color: #66D1FF;
+    background-color: rgba(102, 209, 255, 1);
 }
 
-.about-title {
+.about-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 48px;
@@ -89,7 +88,7 @@
     text-align: center;
 }
 
-.about-subtitle {
+.about-heading {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 32px;
@@ -99,6 +98,7 @@
 .about-desc {
     font-size: 26px;
     line-height: 36px;
+    opacity: .8;
 }
 
 /* lead */
@@ -109,7 +109,7 @@
 }
 */
 
-.lead-title {
+.lead-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 48px;
@@ -138,7 +138,7 @@
     text-align: center;
 }
 
-.footer-cr {
+.copyright {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
