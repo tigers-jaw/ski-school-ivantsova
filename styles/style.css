@@ -33,6 +33,10 @@ body {
     color: #060D10;
 }
 
+.header-content {
+    display: inline-block;
+}
+
 /* header */
 
 .header {
