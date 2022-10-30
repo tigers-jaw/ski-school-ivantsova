@@ -172,29 +172,44 @@ body {
   text-align: center;
 }
 
-.social-link {
+.icon-twitter {
   display: block;
   width: 40px;
   height: 40px;
+  background-image: url(../imgs/icon-twitter.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.icon-twitter {
-  background-image: url(../imgs/icon-twitter.svg);
-}
-
 .icon-in {
+  display: block;
+  width: 40px;
+  height: 40px;
   background-image: url(../imgs/icon-in.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .icon-google {
+  display: block;
+  width: 40px;
+  height: 40px;
   background-image: url(../imgs/icon-google.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .icon-fb {
+  display: block;
+  width: 40px;
+  height: 40px;
   background-image: url(../imgs/icon-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .copyright {
