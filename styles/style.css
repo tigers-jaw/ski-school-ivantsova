@@ -57,12 +57,6 @@ body {
   background-color: #66D1FF;
 }
 
-/*
-.header-content {
-  display: inline-block;
-}
-*/
-
 .header-wrap {
   display: flex;
   justify-content: space-between;
@@ -70,6 +64,7 @@ body {
 }
 
 .header-btn {
+  font-family: 'Montserrat', sans-serif; /* почему без - Arial ? */
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -77,11 +72,13 @@ body {
   border-radius: 4px;
 }
 
-.header-phone {
+.tel {
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
-  padding: 39px;
+  padding: 39px 0;
+  text-decoration: none;
+  color: #060D10;
 }
 
 /* promo */
@@ -89,6 +86,19 @@ body {
 .promo {
   color: #fff;
   text-shadow: 1px 1px 2px #060D10;
+  text-align: center;
+  background-color: #66D1FF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); /* почему не видна */
+  background-image: url(../imgs/bg-promo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.promo-fade {
+  padding: 240px 0 260px;
+  background-color: rgba(6, 13, 16, 0.25);
 }
 
 .promo-title {
@@ -96,40 +106,57 @@ body {
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  text-align: center;
-  padding-top: 240px;
+  text-transform: uppercase;
 }
 
 .promo-desc {
   font-weight: 500;
   font-size: 32px;
   line-height: 39px;
-  text-align: center;
-  padding: 60px 109px 260px;
+  padding: 109px 0;
 }
 
 /* about */
 
 .about {
-  background-color: rgba(102, 209, 255, 1);
+  padding: 170px 0;
+  background-color: rgba(102, 209, 255, .1);
 }
 
 .about-text {
+  margin-top: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.about-wrap {
+  flex-wrap: wrap;
+  margin-top: 100px;
+  border: 1px solid #f00;
+}
+
+.about-card {
+  display: block;
+  flex-basis: 33,33%;
+  border: 1px solid #f00;
 }
 
 .about-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 53px;
+  text-transform: uppercase;
 }
 
 .about-desc {
+  margin-bottom: 0;
   font-size: 26px;
   line-height: 36px;
   opacity: .8;
@@ -139,7 +166,7 @@ body {
 
 /* градиент
 .lead {
-    background-color: #66D1FF;
+  background-color: #66D1FF либо rgba(102, 209, 255, .1);
 }
 */
 
@@ -149,6 +176,7 @@ body {
   font-size: 48px;
   line-height: 80px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .lead-btn {
@@ -158,9 +186,21 @@ body {
   text-align: center;
 }
 
+.lead-gallery {
+  padding: 0;
+}
+
+.gallery-img {
+  width: 297px;
+  height: 297px;
+  object-fit: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* footer */
 
 .footer {
+  padding: 35px 0;
   color: #fff;
   background-color: #060D10;
 }
